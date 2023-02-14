@@ -34,3 +34,18 @@ file = "/example_data/S2-IP-MH@5K_2T_course_8kOe_fine.dat"
   <img src="/images/S2_Cu-OOP-MH@5K_3kOe_course_1500Oe - FIGURE.png" width="333" />
 </p>
 <p align="center"><i>Figure 2.  Example analysis for out-of-plane applied field MH measurment. </i></p>
+
+## Requirements
+- Python 3.6
+- matplotlib
+- numpy
+- pandas
+- wx
+- lmfit
+
+## Instructions
+- open main.py
+  - Set NORMALISE, DRIFT_REMOVE, and PARA_REMOVE variables to True or False 
+- Run main.py
+- Choose QD SQUID data file using file browser popup
+- Save figures using save button on matplotlib GUI (make sure interpreter has graphics backend set to automatic and not in-line)
