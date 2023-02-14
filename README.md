@@ -1,0 +1,1 @@
+# QuantumDesign-SQUID-data-analyser
